@@ -1,0 +1,56 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:contentPadding="10dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="abc"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/distanceTextView"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:text="Update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:text="Delete"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

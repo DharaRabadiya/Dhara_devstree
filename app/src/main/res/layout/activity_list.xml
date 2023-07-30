@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_gravity="center"
+        android:text="AddPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/showPath"
+        android:layout_gravity="center"
+        android:text="Show Path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/sortA"
+        android:layout_gravity="center"
+        android:text="Sort Assending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/sortD"
+        android:layout_gravity="center"
+        android:text="Sort Descending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp" />
+
+</LinearLayout>
